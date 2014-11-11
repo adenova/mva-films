@@ -108,7 +108,7 @@
             }
             else { // On renvoie tous les films quand le type est non renseigné
                 foreach ($this->_data as $row) {
-                    if ($row[1] != "Type") {
+                    if ($row[1] != "Title") {
                         $found[] = new Film($row);
                     }
                 }
