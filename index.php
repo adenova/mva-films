@@ -34,8 +34,8 @@
         <div class="container">
             <div class="jumbotron">
                 <h1><?php echo $title; ?></h1>
-                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Très bientôt, dans le module suivant,
-            nous apprendrons à créer une page de détail qui va nous permettre de visualiser les informations d'un film.</p>
+                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Nous sommes actuellement
+                    en train de déployer notre site web sur Azure...</p>
             </div>
             <?php if (count($data) > 1): ?>
             <h2><?php printf("Il y a actuellement %s films disponibles :", count($data) - 1); ?></h2>
