@@ -34,8 +34,8 @@
         <div class="container">
             <div class="jumbotron">
                 <h1><?php echo $title; ?></h1>
-                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Voici une version
-                de notre site déployée en utilisant le contrôle de source ;)</p>
+                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Encore un peu de patience, 
+                    nous allons bientôt déployer notre site web sur Azure...</p>
             </div>
             <?php if (count($data) > 1): ?>
             <h2><?php printf("Il y a actuellement %s films disponibles :", count($data) - 1); ?></h2>
