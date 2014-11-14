@@ -34,8 +34,8 @@
         <div class="container">
             <div class="jumbotron">
                 <h1><?php echo $title; ?></h1>
-                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Ceci 
-                    est une version éditée à partir de VSO ;)
+                <p>Voici la liste des films que j'aime et qui sont sortis récemment au cinéma. Ceci
+                    est une version qui a été modifiée à partir de VSO Monaco ;)
                 </p>
             </div>
             <?php if (count($data) > 1): ?>
